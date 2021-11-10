@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+store = Store.create(name: "Nike")
+p store.errors
+ 
